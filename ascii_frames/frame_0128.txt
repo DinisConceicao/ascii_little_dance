@@ -1,53 +1,27 @@
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                       ..                                   
-                     ......                                 
-                    .''.....                                
-                   .,'..'....                               
-                   .'..... .                                
-                     .,..                                   
-                      .,....;l,.....                        
-                     ';:,'..:x,.''..                        
-                   'k0O0k;,'........                        
-                  lXXKKKKO;'''......                        
-                  OXKKKKK0k;'.......                        
-                  ,OKKKKK0Oxl,....'                         
-                  .lXXKK00kxxdo::c:                         
-                  .cXXK000kxxxxddo'                         
-                  ':XXK0OOkxxxxddl                          
-                 ';,XKKOO0kkxxxxdc                          
-                .,,'XXK00Okkkkxxdl                          
-                ''';XXKK0kkkkkkkxd.                         
-               .c:lXNXK0OOOOOOOkkxc                         
-               ,..:xxxdddoolc:;;;,'                         
-              ......                                        
-             .'' .......                                    
-            .... ..                                         
-             ..  ..                                         
-                 .                                          
-                 .                                          
-                       .  ..                                
-                 coo'; d l:dcccoo'                          
-                         ,.    . .                          
-                  .::;';.,:, :.,.                           
-                  .'.. ...'. . ..                           
-                                                            
-                   .....                                    
-                   ......   ......                          
-                    .....    .....                          
-                     ....    .....                          
-                      ....    ....                          
-                       .,:c   ...                           
-                       .Okd,  :c:,                          
-                       .klcl. kkd:                          
-                       ooc:,.,oc:;.                         
-                     .odoc,. .ol:;'                         
-                    ckOdc;.   ldc;'                         
-                   coool:'    lkc:,                         
+                              
+                              
+                              
+                              
+                              
+          ...                 
+          '...                
+          ...                 
+          ':,.c'..            
+         xKKO;....            
+         oKK0k:'..            
+         ;X00kxdo.            
+        .,X00kxxl             
+        ,:XKOkkkd             
+       ..collc:;;.            
+       ' .                    
+      .                       
+                              
+        .,...,',.             
+         .,.',...             
+                              
+          ..  ...             
+          ..   ..             
+           .:. ..             
+           .xc.xc             
+          .oc' o;.            
+         .dd;  o:.            

@@ -1,53 +1,27 @@
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                           .....                            
-                          .'.'...                           
-                         .,'.'.''.                          
-                         .;,,;;,.'                          
-                          .;:;,.                            
-                         .'',..                             
-                  ..............                            
-                 .,'''..'ll:;,,,:oc.                        
-               .,,'.'..;xxxxxxxxxxx,'..                     
-               ;,.....:ddxxxxxxxxxdo....                    
-               ....,;loddxxxxxxxxxdo'...                    
-                   cOdddxxxkkkkxxdo: ...                    
-                   .X0kkkkkkkkkxxdo. ....                   
-                    KKK0Okkkkkkxxdo   ...                   
-                    oKKK0Okkkkkxddo    ...                  
-                    ,K0K0OOOkkkxxdd.   ....                 
-                    .KK000Okkkkxxxd;    ...                 
-                     KKK000OOOOOkkxd.    ...                
-                    cXXXKKK00OOOOxdo:    ...                
-                    ',,,'''''...          ..                
-                   ....                   ..                
-                   ...                    .'.               
-                   ...                    .'                
-                  ....                                      
-                  ...                                       
-                  ......   .           .                    
-                   :';.d l:dcccooolco;lo                    
-                  ..           . .                          
-                  .::;';..;,  .:;';,:;,                     
-                  .,'. .....   ....... '.                   
-                  ..                                        
-                  ..                                        
-                  ......       ...                          
-                  ......       .....                        
-                   .....       .....                        
-                    .....      ....                         
-                     ,:ld.    ....                          
-                     lxoo:    Od:.                          
-                    :xo;;'   'kdl.                          
-                   .kol:'    ;:;''                          
-                  .kkdl,     .::,,.                         
-                  x0OOc.      ;l:,,.                        
-                  Kddo;.      'ko::'                        
+                              
+                              
+                              
+                              
+                              
+              ..              
+             ,'..             
+             ,;.              
+         ....'...             
+        ''.,dxdddc.           
+       ...:oxxxxxo..          
+          0kkkkxd; .          
+          kKOkkxd,  .         
+          lK0Okkxc  ..        
+          o0Okxdoc.  .        
+          .          .        
+         ..          .        
+         ..                   
+         ..'.,.,,'',          
+         ',..' .'''.          
+         .                    
+         ...    .             
+          ..   ...            
+          .c;  '.             
+          lc, .d;             
+         ck:   :,             
+         Ox,   c:,            

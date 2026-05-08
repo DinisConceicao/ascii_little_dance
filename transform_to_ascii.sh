@@ -14,6 +14,6 @@ mkdir -p ascii_frames
 # done
 
 for f in frames/*.png; do
-	jp2a --width=40 "$f" \
+	jp2a --width=30 "$f" \
 		> "ascii_frames/$(basename "$f" .png).txt"
 done

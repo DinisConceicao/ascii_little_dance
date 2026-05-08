@@ -1,53 +1,27 @@
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                                                            
-                     .                                      
-                     . .....                                
-                     ..,..''..                              
-                      ''.......                             
-                    ..''..'...                              
-                ...cKc;,.''....,.                           
-               ;,''xOo',.... .;kd..                         
-              ;,''dOOOl;.....;xkk.....                      
-              ,'.cK0OOO0OkkkOkkkO;....                      
-             ;;'.dK0OOOOO0000OOOOx....                      
-            ,;'..:00OOOOOOOOOOkkxo....                      
-            ;'...;kOkkkkOOOOkkxdoc.....                     
-           .'... .x0OOOOOOOOkkxdo' ....                     
-           ;'..   xkO0OOOOOkkxxdo   ...                     
-           ''..   lxkOOkkkkkxdddl    ...                    
-            .'.   :xkkkkkkkxxdddc    ...                    
-              .   :xxkkkkkkkxxddl    ...                    
-                  xOkkkkkkkkkkxxd,    .                     
-                 .doollllolcc:,,,,                          
-                 ''...                                      
-                .''....            .                        
-                .''....           ..                        
-                 ......          ...                        
-                 ....             ..                        
-                 ..               .                         
-                 ..   ..   .                                
-                 :oo': d l:dcccoo:                          
-                  ..     '.    . .                          
-                  .::;';';c' : .'';.                        
-                  .''. ..... .  ...                         
-                  ..                                        
-                 ......     .....                           
-                 ......    ......                           
-                 ......     ....                            
-                  '....     ....                            
-                  .....     ...                             
-                   ,...    lo:.                             
-                   kxdc   .Oxo.                             
-                   xOoc   ;::;.                             
-                  .ddc;.  ;:;,'                             
-                  ;kdc:   ,c;,.                             
-                  dkdo:   do;;'                             
-                  0Oxx;  .0xc:;                             
+                              
+                              
+                              
+                              
+                              
+                              
+           '...               
+          .'...               
+       .'lk,...o,             
+       ,,0Okddxko..           
+      ,',0OOOOOkd..           
+      '..kOOOOkd: .           
+     .'. dOOkkxd. ..          
+         okkkkxd'  .          
+         oc:c::,'             
+        .'.                   
+        ...      .            
+         .                    
+        .,...,.,,             
+         ',.',. ..            
+         .                    
+         ..   ..              
+         ..   ..              
+         .'  .c               
+         ;d' ::               
+         lo. :;               
+         Od. k:.              
