@@ -15,13 +15,12 @@ def load_frames():
 FRAMES = load_frames()
 
 class Handler(BaseHTTPRequestHandler):
-	def do_GET(self):
-		if self.path == "/passinho":
-			output = "\n".join(FRAMES)
+		if self.path.startswith("/frame/"):
+			i = int(self.path.split("/")[-1])
+			frame = FRAMES[i % len(FRAMES)]
 			self.send_response(200)
-			self.send_header("Content-type", "text/plain")
 			self.end_headers()
-			self.wfile.write(output.encode())
+			self.wfile.write(frame.encode())
 		else:
 			self.send_response(404)
 			self.end_headers()
