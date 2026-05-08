@@ -1,6 +1,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import os
 import time
+import json
 
 FRAME_DIR = "ascii_frames"
 
@@ -15,16 +16,23 @@ def load_frames():
 FRAMES = load_frames()
 
 class Handler(BaseHTTPRequestHandler):
-		if self.path.startswith("/frame/"):
+	def do_GET(self):
+		if self.path == "/ascii_frames":
+			payload = json.dumps(FRAMES).encode()
+			self.send_response(200)
+			self.send_header("Content-Type", "application/json")
+			self.send_header("Access-Control-Allow-Origin", "*")
+			self.end_headers()
+			self.wfile.write(payload)
+
+		elif self.path.startswith("/frame/"):
 			i = int(self.path.split("/")[-1])
 			frame = FRAMES[i % len(FRAMES)]
 			self.send_response(200)
 			self.end_headers()
 			self.wfile.write(frame.encode())
+
 		else:
 			self.send_response(404)
 			self.end_headers()
 			self.wfile.write(b"Not found")
-
-PORT = int(os.environ.get("PORT", 8080))
-HTTPServer(("0.0.0.0", PORT), Handler).serve_forever()
