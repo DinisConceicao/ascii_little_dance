@@ -22,4 +22,4 @@ class Handler(BaseHTTPRequestHandler):
 			with open(f"ascii_frames/{frame}") as f:
 				self.wfile.write(f.read().encode())
 
-HTTPServer(("0.0.0.0", int(os.environ.get("PORT", 8080))), Handler).serve_forever()
+HTTPServer(("0.0.0.0", int(os.environ.get("PORT", 8080))), Handler)
