@@ -1,7 +1,7 @@
 #!/bin/bash
 
 URL="${1:-https://passinho.onrender.com}"
-FPS="${2:-15}"
+FPS="${2:-30}"
 DELAY=$(echo "scale=3; 1/$FPS" | bc)
 
 echo "Loading animation..."

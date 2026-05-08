@@ -1,1 +1,1 @@
-curl -s https://passinho.onrender.com/dance.sh | bash
+curl https://passinho.onrender.com/dance.sh | bash
