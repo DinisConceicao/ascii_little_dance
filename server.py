@@ -2,10 +2,15 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import os
 import time
 import json
+import sys
 
 FRAME_DIR = "ascii_frames"
 
 def load_frames():
+	if not os.path.exists(FRAME_DIR):
+		print(f"Files here: {os.listdir('.')}", flush=True)
+		print(f"ERROR: '{FRAME_DIR}' directory not found. Cwd is: {os.getcwd()}", flush=True)
+		sys.exit(1)
 	files = sorted(os.listdir(FRAME_DIR))
 	frames = []
 	for f in files:
