@@ -25,7 +25,7 @@ class Handler(BaseHTTPRequestHandler):
 			self.end_headers()
 			self.wfile.write(payload)
 
-		elif self.path.startswith("/frame/"):
+		elif self.path.startswith("/ascii_frames/"):
 			i = int(self.path.split("/")[-1])
 			frame = FRAMES[i % len(FRAMES)]
 			self.send_response(200)
