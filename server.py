@@ -1,25 +1,31 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import os
+import time
 
-FRAMES = sorted(os.listdir("ascii_frames"))
+FRAME_DIR = "ascii_frames"
+
+def load_frames():
+	files = sorted(os.listdir(FRAME_DIR))
+	frames = []
+	for f in files:
+		with open(os.path.join(FRAME_DIR, f), "r") as file:
+			frames.append(file.read())
+	return frames
+
+FRAMES = load_frames()
 
 class Handler(BaseHTTPRequestHandler):
 	def do_GET(self):
-		path = self.path
-
-		if path == "/dance":
+		if self.path == "/passinho":
+			output = "\n".join(FRAMES)
 			self.send_response(200)
+			self.send_header("Content-type", "text/plain")
 			self.end_headers()
-			self.wfile.write("\n".join(FRAMES).encode())
-
-		elif path.startswith("/dance/"):
-			idx = int(path.split("/")[-1])
-			frame = FRAMES[idx % len(FRAMES)]
-
-			self.send_response(200)
+			self.wfile.write(output.encode())
+		else:
+			self.send_response(404)
 			self.end_headers()
+			self.wfile.write(b"Not found")
 
-			with open(f"ascii_frames/{frame}") as f:
-				self.wfile.write(f.read().encode())
-
-HTTPServer(("0.0.0.0", int(os.environ.get("PORT", 8080))), Handler)
+PORT = int(os.environ.get("PORT", 8080))
+HTTPServer(("0.0.0.0", PORT), Handler).serve_forever()
