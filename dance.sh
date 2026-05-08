@@ -31,8 +31,8 @@ for line in "${FRAMES[@]}"; do
 	fi
 done
 
-echo "Loaded ${#ANIM_FRAMES[@]} frames. Press Ctrl+C to stop."
-sleep 1
+echo "Loaded ${#ANIM_FRAMES[@]} frames."
+sleep 0.05
 
 tput civis  # hide cursor
 trap 'tput cnorm; echo; exit' INT
