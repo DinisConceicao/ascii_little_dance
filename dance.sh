@@ -1,6 +1,6 @@
 #!/bin/bash
 
-URL="${1:-https://ascii-little-dance.onrender.com}"
+URL="${1:-https://passinho.onrender.com}"
 FPS="${2:-15}"
 DELAY=$(echo "scale=3; 1/$FPS" | bc)
 
